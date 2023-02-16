@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parcela">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terreno"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="180dp"
+        android:text="sms"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <Spinner
+        android:id="@+id/fk_id_pro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:labelFor="@id/textView4"
+        android:textSize="20sp"
+        android:contentDescription="Spiner  producto"
+        />
+    <Spinner
+        android:id="@+id/fkidpar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="116dp"
+        android:labelFor="@id/textView4"
+        android:textSize="20sp"
+        android:contentDescription="Spiner  parroquia"
+        />
+    <Spinner
+        android:id="@+id/fk_id_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="164dp"
+        android:labelFor="@id/textView4"
+        android:textSize="20sp"
+        android:contentDescription="Spiner  barrio"
+        />
+    <Spinner
+        android:id="@+id/fkproduc"
+        android:contentDescription="Spiner  barrio"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="212dp"
+        android:labelFor="@id/textView4"
+        android:textSize="20sp"
+        />
+    <Spinner
+        android:id="@+id/tiempo_cosecha_ter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="260dp"
+        android:labelFor="@id/textView4"
+        android:textSize="20sp"
+        android:contentDescription="Spiner  tiempo"
+        />
+    <EditText
+        android:id="@+id/lat_ter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="308dp"
+        android:ems="20"
+        android:inputType="text"
+        android:text="Latitud"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/lng_ter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="356dp"
+        android:ems="20"
+
+        android:hint="Longitud"
+        android:inputType="text"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/descripcion_ter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="404dp"
+        android:ems="20"
+
+        android:hint="Descripcion"
+        android:inputType="text"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/buttoninsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="452dp"
+        android:backgroundTint="#2196F3"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/buttonlimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="452dp"
+        android:layout_marginStart="130dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Limpiar" />
+
+    <Button
+        android:id="@+id/buttonatras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="452dp"
+        android:layout_marginStart="270dp"
+        android:backgroundTint="#FFF44336"
+        android:text="Atras" />
+
+    <ListView
+        android:id="@+id/mostrarlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="550dp"
+        />
+</RelativeLayout>
+

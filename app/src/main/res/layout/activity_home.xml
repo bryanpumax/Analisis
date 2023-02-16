@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".home">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="text"
+        android:text="@string/texto_home_tituto"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:inputType="text"
+        android:text="@string/texto_home_subtituto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:autoSizeTextType="none" />
+
+    <ImageButton
+        android:id="@+id/Proveedor_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/i2"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="90dp"
+        />
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/i3"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="200dp"
+        />
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/i4"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="91dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/i1" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:inputType="text"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:autoSizeTextType="none" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

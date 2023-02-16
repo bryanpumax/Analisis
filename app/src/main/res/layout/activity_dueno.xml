@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dueno"
+    >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Propietario"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="180dp"
+        android:text="sms"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/identificacion_pro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:ems="20"
+        android:inputType="text|number"
+        android:hint="Cedula"
+        android:labelFor="@id/textView4"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/apellido_pro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="120dp"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:hint="Apellido"
+        android:labelFor="@id/identificacion_pro"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nombre_pro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="168dp"
+        android:ems="20"
+
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:labelFor="@id/apellido_pro"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/correos"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="216dp"
+        android:ems="20"
+        android:hint="Correo"
+        android:inputType="textWebEmailAddress"
+        android:labelFor="@id/nombre_pro"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/telefonos"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="264dp"
+        android:ems="20"
+        android:hint="Telefono"
+        android:labelFor="@id/nombre_pro"
+        android:inputType="text|phone"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/buttoninsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="365dp"
+        android:backgroundTint="#2196F3"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/buttonlimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="130dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Limpiar" />
+
+    <Button
+        android:id="@+id/buttonatras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="270dp"
+        android:backgroundTint="#FFF44336"
+        android:text="Atras" />
+
+    <ListView
+        android:id="@+id/mostrarlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="415dp"
+        />
+
+
+
+
+</RelativeLayout>

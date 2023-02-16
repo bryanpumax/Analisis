@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:adjustViewBounds="false"
+        android:backgroundTintMode="add"
+        android:contentDescription="@string/descripcion_logo"
+        android:drawingCacheQuality="auto"
+        android:maxWidth="100dp"
+        android:maxHeight="500dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_logo" />
+
+    <EditText
+        android:id="@+id/user_edit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:hint="@string/edit_usuario_o_cedula"
+        android:inputType="text"
+        android:labelFor="@id/imageView"
+        android:layerType="none"
+
+        android:textStyle="normal|bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/pass_edit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="185dp"
+        android:ems="10"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        android:labelFor="@id/user_edit"
+        android:layerType="none"
+
+        android:textStyle="normal|bold"
+        android:typeface="normal" />
+
+    <ImageButton
+        android:id="@+id/envio_btn"
+
+        android:layout_width="102dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="285dp"
+        android:contentDescription="@string/descripcion_logo"
+
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/aviso"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="390dp"
+        android:text="hola"
+        android:textSize="24sp"
+        tools:text="" />
+    <TextView
+        android:id="@+id/aviso2"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="490dp"
+        android:text="hola"
+        android:textSize="24sp"
+        tools:text="" />
+</FrameLayout>

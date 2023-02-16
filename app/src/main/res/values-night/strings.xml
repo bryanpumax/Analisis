@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="descripcion_logo">Logo utc</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="edit_contrase_a">Contraseña</string>
+    <string name="edit_usuario_o_cedula">Usuario o cedula</string>
+    <string name="Valor_text_view_aviso">.</string>
+    <string name="Valor_aviso">-</string>
+</resources>

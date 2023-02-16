@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Internet -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Gps -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Analisis"
+        tools:targetApi="31">
+        <activity
+            android:name=".Parcela"
+            android:exported="false"
+            android:label="@string/title_activity_parcela"
+            android:theme="@style/Theme.Analisis.NoActionBar" />
+        <activity
+            android:name=".Medicion"
+            android:exported="false"
+            android:label="@string/title_activity_parcela"
+            android:theme="@style/Theme.Analisis.NoActionBar" />
+        <activity
+            android:name=".home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Analisis.NoActionBar" />
+        <activity
+            android:name=".dueno"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Analisis.NoActionBar" />
+        <activity
+            android:name=".terreno"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Analisis.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Analisis.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
